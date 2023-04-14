@@ -1,0 +1,69 @@
+/*  References:
+ *  https://www.w3schools.com/css/css_navbar_horizontal.asp
+*/
+
+.ultop {
+    top: 0;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.litop {
+    float: left;
+}
+
+.liatop {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.liatop:hover {
+    background-color: #111;
+    color: white;
+}
+  
+.ulside {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 150px;
+    background-color: #dbdbdb;
+    text-align: left;
+    float: left;
+}
+
+.liaside {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.liaside:hover {
+    background-color: #111;
+    color: white;
+}
+
+.active {
+    background-color: #04AA6D;
+    color: white;
+}
+
+ul.main {
+    list-style-type: none;
+}
+
+.listtitle {
+    margin-bottom: 0px;
+}
+
+div.data {
+    padding-left: 110px;
+}

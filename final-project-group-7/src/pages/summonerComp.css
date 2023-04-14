@@ -1,0 +1,99 @@
+.summoner-comparison-title {
+    text-align: center;
+    font-family: Beaufort;
+    color: #C89B3C;
+}
+p{
+    font-family: Beaufort;
+    color: #A09B8C
+}
+h2{
+    font-family: Beaufort;
+    color: #A09B8C;
+    font-size: 20px;
+}
+.h1inbox{
+    font-family: Beaufort;
+    color: #A09B8C
+}
+
+a{
+    font-family: Beaufort;
+    color: #A09B8C
+}
+strong{
+    font-family: Beaufort;
+    color: #A09B8C
+}
+.loss{
+    background-color: rgba(255, 0, 0, 0.1);
+}
+
+.win{
+    background-color:rgba(0, 128, 0, 0.1)
+}
+
+input {
+    width: 80%;
+    margin-left: 2.5px;
+    background: rgba(255,255,255,0.1);
+    border: 1px solid #C89B3C;
+    color:#A09B8C;
+}
+
+button {
+    margin-left: 2.5px;
+    background: rgba(255,255,255,0.5);
+}
+
+.clear-all {
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.summoner-card {
+    border: solid #C89B3C;
+    width: 25%;
+    height: 500px;
+    margin: 5px;
+
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+select {
+    margin-left: 2.5px;
+}
+
+.error-message {
+    margin-left: 5px;
+    color: red;
+    font-style: italic;
+}
+
+.summoner-stats-container {
+    margin-left: 2.5px;
+    width: 95%;
+    height: 92.5vh;
+    overflow-wrap: break-word;
+    overflow-y: auto;
+}
+
+.summoner-card div {
+    margin-bottom: 5px;
+}
+
+p {
+    margin: 0px;
+}
+
+.summName {
+    font-size: larger;
+    text-align: center;
+}
+
+.summStats {
+    font-size: large;
+    text-align: center;
+}
